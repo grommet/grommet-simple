@@ -6,6 +6,17 @@ For now this is being used to test the CSS modules + PostCSS migration.
 
 # Install
 
-* npm install
-* webpack (add `--config webpack.hpe.config.babel.js` to get HPE theme)
-* open `dist/index.html`
+1. Install npm dependencies
+```
+  npm install
+```
+
+2. Create the webpack distribution
+
+```
+  webpack
+```
+
+add `--config webpack.hpe.config.babel.js` to get HPE theme
+
+3. Open App @ `dist/index.html`
