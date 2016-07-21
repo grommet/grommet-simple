@@ -17,16 +17,16 @@ export default {
 	},
 	module: {
 		loaders: [
-      {
-    		test: /\.js$/,
+			{
+				test: /\.js$/,
 				exclude: /node_modules/,
-    		loaders: ['babel']
-    	},
+				loaders: ['babel']
+			},
 			{
 				test: /\.css$/,
 				loader: 'style!css?sourceMap&modules&importLoaders=2&localIdentName=[name]__[local]___[hash:base64:5]!postcss!grommet-theme'
 			}
-    ]
+		]
 	},
 	postcss: () => [atImport(), mixins, vars({
 		variables: {
