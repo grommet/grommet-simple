@@ -1,6 +1,6 @@
 # grommet-simple: a minimalist structure for grommet
 
-For now this is being used to test the CSS modules + PostCSS migration.
+For now this is being used to test the CSJS migration.
 
 **THIS IS A WORK IN PROGRESS**
 
@@ -11,12 +11,10 @@ For now this is being used to test the CSS modules + PostCSS migration.
     npm install
   ```
 
-* Create the webpack distribution
+* Create the app
 
   ```
-    webpack
+    npm run build
   ```
-
-  add `--config webpack.hpe.config.babel.js` to get HPE theme
 
 * Open App @ `dist/index.html`
